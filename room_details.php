@@ -86,7 +86,7 @@
       </div>
 
       <div class="col-lg-5 col-md-12 px-4">
-        <div class="card mb-4 border-0 shadow-sm rounded-3">
+        <div class="card mb-4 border-0 shadow-sm rounded-3 ">
           <div class="card-body">
             <?php 
 

@@ -7,7 +7,7 @@
   <?php require('inc/links.php'); ?>
   <title><?php echo $settings_r['site_title'] ?> - ROOMS</title>
 </head>
-<body class="bg-light">
+<body class="bg-dark">
 
   <?php 
     require('inc/header.php'); 
@@ -29,8 +29,8 @@
   ?>
 
   <div class="my-5 px-4">
-    <h2 class="fw-bold h-font text-center">OUR ROOMS</h2>
-    <div class="h-line bg-dark"></div>
+    <h2 class="fw-bold h-font text-center text-warning">OUR ROOMS</h2>
+    <div class="h-line bg-warning"></div>
   </div>
 
   <div class="container-fluid">
@@ -98,7 +98,7 @@
         </nav>
       </div>
 
-      <div class="col-lg-9 col-md-12 px-4" id="rooms-data">
+      <div class="col-lg-9 col-md-12 px-4 " id="rooms-data">
       </div>
 
     </div>

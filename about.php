@@ -13,14 +13,14 @@
     }
   </style>
 </head>
-<body class="bg-light">
+<body class="bg-dark">
 
   <?php require('inc/header.php'); ?>
 
   <div class="my-5 px-4">
-    <h2 class="fw-bold h-font text-center">ABOUT US</h2>
-    <div class="h-line bg-dark"></div>
-    <p class="text-center mt-3">
+    <h2 class="fw-bold h-font text-center text-warning">ABOUT US</h2>
+    <div class="h-line bg-warning"></div>
+    <p class="text-center mt-3 text-white">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       Temporibus incidunt odio quos <br> dolore commodi repudiandae 
       tenetur consequuntur et similique asperiores.
@@ -30,9 +30,10 @@
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
-        <h3 class="mb-3">Lorem ipsum dolor sit</h3>
-        <p>
-     brejnvrkejvnklr
+        <h3 class="mb-3 text-white">Manager Says</h3>
+        <p class="text-white">
+        Welcome to Jassaa.In, a haven of elegance and hospitality nestled in the heart of a vibrant cityscape. As a premier boutique hotel, we take great pride in offering our guests an unforgettable experience of luxury and comfort. From the moment you step into our stylish lobby, you'll be enveloped in an ambiance that seamlessly blends contemporary design with warm, inviting touches.
+        Whether you're a seasoned traveler or a first-time visitor, Jassaa.In promises a symphony of comfort, elegance, and genuine hospitality. We look forward to welcoming you to our world of luxury, where every moment is crafted to perfection. Your journey begins with us, and at Jassaa.In, we ensure it will be nothing short of extraordinary.
         </p>
       </div>
       <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">
@@ -44,25 +45,25 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-4 px-4">
-        <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+        <div class="bg-secondary rounded shadow p-4 border-top border-4 text-center box">
           <img src="images/about/hotel.svg" width="70px">
           <h4 class="mt-3">100+ ROOMS</h4>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 px-4">
-        <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+        <div class="bg-secondary rounded shadow p-4 border-top border-4 text-center box">
           <img src="images/about/customers.svg" width="70px">
           <h4 class="mt-3">200+ CUSTOMERS</h4>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 px-4">
-        <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+        <div class="bg-secondary rounded shadow p-4 border-top border-4 text-center box">
           <img src="images/about/rating.svg" width="70px">
           <h4 class="mt-3">150+ REVIEWS</h4>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 px-4">
-        <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+        <div class="bg-secondary rounded shadow p-4 border-top border-4 text-center box">
           <img src="images/about/staff.svg" width="70px">
           <h4 class="mt-3">200+ STAFFS</h4>
         </div>
@@ -70,7 +71,7 @@
     </div>
   </div>
 
-  <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
+  <h3 class="my-5 fw-bold h-font text-center text-warning">MANAGEMENT TEAM</h3>
 
   <div class="container px-4">
     <div class="swiper mySwiper">
@@ -80,7 +81,7 @@
           $path=ABOUT_IMG_PATH;
           while($row = mysqli_fetch_assoc($about_r)){
             echo<<<data
-              <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+              <div class="swiper-slide bg-secondary text-center overflow-hidden rounded">
                 <img src="$path$row[picture]" class="w-100">
                 <h5 class="mt-2">$row[name]</h5>
               </div>

@@ -194,12 +194,12 @@ CREATE TABLE `facilities` (
 --
 
 INSERT INTO `facilities` (`id`, `icon`, `name`, `description`) VALUES
-(13, 'IMG_43553.svg', 'Wifi', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.'),
-(14, 'IMG_49949.svg', 'Air conditioner', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.'),
-(15, 'IMG_41622.svg', 'Television', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.'),
-(17, 'IMG_47816.svg', 'Spa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.'),
-(18, 'IMG_96423.svg', 'Room Heater', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.'),
-(19, 'IMG_27079.svg', 'Geyser', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt odio quos dolore commodi repudiandae tenetur.');
+(13, 'IMG_43553.svg', 'Wifi', 'Our hotel offers free Internet access. High-speed wireless Internet connection is complimentary both in the rooms and public areas.'),
+(14, 'IMG_49949.svg', 'Air conditioner', ' In each room of hotel we facilitate an Air conditioner . which have variable modes and Tempratures which you can select according to your comfort.'),
+(15, 'IMG_41622.svg', 'Television', ' In each room of hotel we facilitate an Smart tv . which have multiple channels and you can also connect your divices according to your comfort.'),
+(17, 'IMG_47816.svg', 'Spa', ' Our hotel offers free spa service. where you can take the advantage of the service and get rest.'),
+(18, 'IMG_96423.svg', 'Room Heater', 'In each room of hotel we facilitate a Room heater . which have variable temprature options .'),
+(19, 'IMG_27079.svg', 'Geyser', ' Our hotel provide Geyser system in each bathroom . where water is avilible 24 hours.');
 
 -- --------------------------------------------------------
 
